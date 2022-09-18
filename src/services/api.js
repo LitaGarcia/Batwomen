@@ -1,5 +1,5 @@
 const dataApi = (data) => {
-  return fetch('https://batwomen.herokuapp.com/card', {
+  return fetch('https://batwomenlitagarcia.herokuapp.com/', {
     method: 'POST',
     body: JSON.stringify(data),
     headers: {
